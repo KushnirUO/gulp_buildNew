@@ -1,0 +1,59 @@
+@mixin font-face($style-name, $file:$style-name, $weight:normal, $style:normal) {
+  $filepath: "../fonts/" + $file;
+  @font-face {
+    font-family: quote($style-name);
+    src: url($filepath + ".eot");
+    src: url($filepath + ".eot?#iefix") format('embedded-opentype'),
+    url($filepath + ".woff") format('woff'),
+    url($filepath + ".ttf") format('truetype'),
+    url($filepath + ".svg#" + $style-name + "") format('svg');
+    font-weight: $weight;
+    font-style: $style;
+  }
+}
+
+@include font-face("Gibson", "Gibson", 400, normal);
+@include font-face("Gibson", "Gibson-Bold", 700, normal);
+@include font-face("Gibson", "Gibson-Light", 300, normal);
+@include font-face("Gibson", "Gibson-SemiBold", 600, normal);
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  font-family: 'Gibson', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  box-sizing: border-box;
+}
+
+html *,
+html *:after,
+html *:before {
+  box-sizing: inherit;
+}
+
+body {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.app {
+  position: relative;
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  background-color: #f5f5f5;
+  font-size: 16px;
+}
