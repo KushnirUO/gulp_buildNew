@@ -1,0 +1,94 @@
+.career {
+  background: #000F2E;
+}
+
+.career__wrapper {
+  padding: 12rem 22.2rem 21.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.career-title {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  text-align: center;
+  color: #F2F3F5;
+  padding-bottom: 4.8rem;
+}
+
+.career-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 8.7rem;
+}
+
+.career-skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+  max-width: 64.1rem;
+
+}
+
+.career-skills__item {
+  width: 14.7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-items: center;
+  text-align: center;
+
+}
+
+.career-skills__item p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 11.1rem;
+}
+
+.career-skills__item img {
+  width: 8.2rem;
+  height: 8.2rem;
+
+}
+@media screen and (max-width: 1024px) {
+  .career-title {
+    font-size: 3.4rem;
+    line-height: 150%;
+  }
+  .career-skills__item {
+    width: 10.7rem;
+  }
+  .career-skills {
+    gap: 6rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .career__wrapper {
+    padding: 6rem 2rem 4.5rem 2rem;
+  }
+  .career-title {
+    font-size: 2.4rem;
+    line-height: 150%;
+  }
+  .career-skills__item {
+    width: 10.7rem;
+  }
+  .career-skills {
+    gap: 4rem;
+  }
+}
