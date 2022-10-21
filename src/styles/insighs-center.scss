@@ -1,0 +1,100 @@
+.insights-center{
+}
+.insights-center__wrapper{
+  position: relative;
+  padding-bottom: 10rem;
+}
+.insights-content{
+  padding-bottom: 10rem;
+}
+.insights-content__img{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.insights-content__img img {
+  z-index: -1;
+  position: absolute;
+  width: 412px;
+  height: 452px;
+}
+.insights-content__title{
+  padding-top: 22.7rem;
+  font-weight: 700;
+  font-size: 92px;
+  line-height: 92px;
+  text-align: center;
+  color: #000F2E;
+  padding-bottom: 3.2rem;
+}
+
+.insights-content__subtitle{
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #717783;
+}
+.blackk{
+  background: black;
+  color: #4ea7f9;
+}
+
+
+
+
+
+.insights-slider{
+  padding: 0 0 0 11.8rem;
+
+}
+.insights-slider__wrapper{
+  max-width: 300rem;
+  width: 100%;
+}
+.insights-slider-item{
+  max-width: 387px;
+  height: 508px;
+  padding-right: 20px;
+}
+.insights-slider-item__title{
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #000F2E;
+}
+.insights-slider-item__subtitle{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717783;
+}
+.insights-slider-item__img img{
+
+}
+.mCSB_dragger_bar .mCS-dark-thick .mCSB_scrollTools .mCSB_dragger{
+  background-color:#FFFFFF;
+  height: 6px;
+}
+
+.mCSB_draggerRail{
+  background-color: #002EAA;
+  height: 1px;
+
+}
+.mCS-light-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-thin.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: white;
+  height: 6px;
+
+}
+.mCSB_dragger_onDrag .mCSB_scrollTools_onDrag .mCSB_dragger_bar{
+  background: white;
+}
+.design-blue-block{
+  height: 300px;
+  width: 100%;
+  background: #0045FF;
+  position: absolute;
+  top: 850px;
+  z-index: -1;
+}
