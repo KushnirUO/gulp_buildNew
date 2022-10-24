@@ -7,9 +7,7 @@
 
 .what-we-do__wrapper {
   padding: 15rem 12rem 15.8rem;
-
 }
-
 .what-we-title {
   font-style: normal;
   font-weight: 700;
@@ -34,14 +32,14 @@
 
 .what-we-list {
   display: flex;
-  gap: 8.9rem;
+  gap: 3.3rem;
 }
 
 .what-we-list__wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width: 32.2rem;
+  width: 37.8rem;
 }
 
 .list-item-heading {
@@ -67,7 +65,8 @@
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #717783;
-  padding-bottom: 5.4rem;
+  padding-bottom: 1.9rem;
+  max-width: 32.2rem;
 }
 
 .list-item-more {
@@ -93,14 +92,19 @@
 .list-item-more p {
   margin: 0;
 }
-@media screen and (max-width: 1024px) {
-  .what-we-list {gap: 4.9rem;}
+@media screen and (max-width: 1439px) {
+  .what-we-list {gap: 2rem;}
+  .what-we-list__wrapper {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .what-we-list{
     flex-wrap: wrap;
     justify-content: center;
+    gap: 8rem;
+
   }
   .what-we-title{
     font-size: 4.2rem;
