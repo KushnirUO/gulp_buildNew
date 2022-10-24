@@ -45,6 +45,8 @@ html{
 	color: #717783;
 	background: black;
 	border: none;
+	padding: 0;
+	max-width: 84.7rem;
 }
 .footer-subs-wrapper input::placeholder {
 	color: #717783;
@@ -89,7 +91,12 @@ html{
 	align-items: flex-start;
 	flex-wrap: wrap;
 	flex-direction: row;
-	gap: 11.5rem;
+	gap: 11.533rem;
+}
+.footer-menu-items{
+	display: flex;
+	flex-direction: column;
+	gap: 3.2rem;
 }
 .footer-menu-items__title h4{
 	font-weight: 300;
@@ -98,10 +105,12 @@ html{
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	color: #717783;
+	margin: 0;
 }
 .footer-menu-list{
 	display: flex;
 	flex-direction: column;
+	gap: 1.6rem;
 }
 .footer-menu-items__text{
 	display: flex;
