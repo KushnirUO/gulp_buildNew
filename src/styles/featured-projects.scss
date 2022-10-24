@@ -2,7 +2,7 @@
 
 }
 .featured__wrapper{
-  padding: 19rem 12rem 9.2rem 12rem;
+  padding: 16rem 12rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,14 +14,16 @@
   line-height: 9.2rem;
   text-align: center;
   color: #000F2E;
-  margin-bottom: 9.6rem;
+  margin-bottom: 6.6rem;
 }
 .project-content{
   margin: 5.4rem 0;
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
-
+  width: 100%;
+  cursor: pointer;
+  text-decoration: none;
 }
 .project-content__name{
   font-weight: 600;
