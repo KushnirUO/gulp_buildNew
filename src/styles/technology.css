@@ -1,0 +1,13 @@
+.header-tech{
+    background: #5D51F2;
+    height: 127rem;
+}
+.mobile-dev{
+    height: 300rem;
+}
+.mobile-dev__img1, .mobile-dev__img2, .mobile-dev__img3, .mobile-dev__img4{
+    position: relative;
+}
+.mobile-dev__img2, .mobile-dev__img3, .mobile-dev__img4{
+    display: none;
+}
