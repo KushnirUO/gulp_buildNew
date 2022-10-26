@@ -31,114 +31,109 @@
 
 <div class="global-wrapper">
     <!-- HEADER -->
-    <header>
-    
-    </header>
-    <!-- /HEADER -->
-
-    <div class="main">
-        
-    </div>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-        <div class="footer__wrapper">
-            <div class="footer-subs">
-                <div class="footer-subs__wrapper">
-                    <div class="footer-subs-wrapper">
-                        <div class="footer-subs-wrapper__inner">
-                            <h2>Subscribe to our newsletter</h2>
-                            <div class="footer-subs-wrapper-email">
-                                <input type="email" placeholder="Enter your email"/>
-                                <button>Subscribe</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-subs__line"></div>
+    <header class="header">
+        <div class="header-menu">
+            <div class="header-menu__logo"><img src="../assets/Logo-index.svg"/></div>
+            <div class="header-menu__wrapper">
+                <a href="#">what we do</a>
+                <a href="#">solutions</a>
+                <a href="#">case studies</a>
+                <a href="#">insights center</a>
+                <a href="#">careers</a>
+                <div class="header-burger" onclick="openNav()"><img src="../assets/Menu.svg"/></div>
             </div>
-    
-            <div class="footer-menu">
-                <div class="footer-menu__logo">
-                    <div class="footer-logo"><img src="../assets/Logo.png"/></div>
-                    <div class="footer-logo-text"><p>Shimshon 9, Petah Tikva (Lexus Building) +972 73-261-7417</p></div>
-                </div>
-                <div class="footer-menu__wrapper accordion" id="accordion">
-                    <div class="footer-menu-items accordion__item">
-                        <div class="footer-menu-items__title accordion__title">
-                            <h4>Capabilities</h4>
-                        </div>
-                        <div class="footer-menu-items__text accordion__content">
-                            <div class="footer-menu-list">
-                                <a href="#">Strategy</a>
-                                <a href="#">Technology</a>
-                                <a href="#">Customer Experience</a>
-                                <a href="#">Solutions</a>
-                            </div>
+        </div>
+        <div id="myNav" class="header-navbar">
+            <div class="header-nav-logo"><img src="../assets/Logo.png"/></div>
+            <div class="header-navbar__content">
+                <div class="header-nav-menu">
+                    <div class="header-nav-menu__wrapper">
+                        <div class="nav-menu-title">What we do</div>
+                        <div class="nav-menu-subtitle">
+                            <a href="#">Customer experience</a>
+                            <a href="#">Strategy</a>
+                            <a href="#">Technology</a>
                         </div>
                     </div>
-                    <div class="footer-menu-items accordion__item">
-                        <div class="footer-menu-items__title accordion__title">
-                            <h4>Company</h4>
-                        </div>
-                        <div class="footer-menu-items__text accordion__content">
-                            <div class="footer-menu-list">
-                            <a href="#">About Us</a>
-                            <a href="#">News & Events</a>
-                            <a href="#">Academy</a>
-                            <a href="#">Careers</a>
-                            <a href="#">Contact Us</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-menu-items accordion__item">
-                        <div class="footer-menu-items__title accordion__title">
-                            <h4>Insights Center</h4>
-                        </div>
-                        <div class="footer-menu-items__text accordion__content">
-                            <div class="footer-menu-list">
-                            <a href="#">Customer Experience</a>
-                            <a href="#">Product Management</a>
-                            <a href="#">Business & Growth</a>
-                            <a href="#">Innovations</a>
-                            <a href="#">Digital Transformation</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-menu-items accordion__item">
-                        <div class="footer-menu-items__title accordion__title">
-                            <h4>Case Studies</h4>
-                        </div>
-                        <div class="footer-menu-items__text accordion__content">
-                            <div class="footer-menu-list">
+                    <div class="header-nav-menu__wrapper">
+                        <div class="nav-menu-title">Case Studies</div>
+                        <div class="nav-menu-subtitle">
                             <a href="#">Shufersal</a>
                             <a href="#">Bank Hapoalim</a>
                             <a href="#">Yellow</a>
                             <a href="#">Corona</a>
                             <a href="#">Catch App</a>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="footer-social">
-                <div class="footer-social__icons">
-                    <div class="social-logo"><img src="../assets/Logo (1).png" alt="#"/></div>
-                    <p>Follow us</p>
+                <div class="header-nav-submenu">
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Clients</a>
+                    <a href="#">Contact</a>
+                    <a href="#">About</a>
                     <div class="social-icons">
                         <a class="social-icons__inst" href="#"><img src="../assets/Instagram.png" alt="#"/></a>
                         <a class="social-icons__fb" href="#"><img src="../assets/Facebook.png" alt="#"/></a>
                         <a class="social-icons__in" href="#"><img src="../assets/Linkedin.png" alt="#"/></a>
                     </div>
                 </div>
-                <div class="footer-social__digital">
-                    <p>Legal</p>
-                    <p>© 2022 Aman Digital, LTD.</p>
-                </div>
+            </div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </div>
+        <div class="header__info">
+            <div class="info-line1">
+                <span>We</span>
+                <img src="../assets/index-1.svg"/>
+                <p>plan</p>
+            </div>
+            <div class="info-line2">
+                <p>create</p>
+                <img src="../assets/index-2.svg"/>
+                <p>design</p>
+            </div>
+            <div class="info-line3">
+                <p>build</p>
+                <img src="../assets/index-3.svg"/>
+                <span>your</span><span>digital</span><span>future</span>
+            </div>
+    
+        </div>
+        <div class="header__right-nav-bar">
+            <div class="social-icons">
+                <a class="social-icons__inst" href="#"><img src="../assets/Instagram.png" alt="#"/></a>
+                <a class="social-icons__fb" href="#"><img src="../assets/Facebook.png" alt="#"/></a>
+                <a class="social-icons__in" href="#"><img src="../assets/Linkedin.png" alt="#"/></a>
             </div>
         </div>
-    </footer>
-    <!-- /FOOTER -->
+        <a href="#" class="header__message">
+            <div class="message-wrapper">
+                <div>
+                    <div class="message-wrapper__title">Contact Us</div>
+                    <div class="message-wrapper__subtitle">Let’s talk dgtl</div>
+                </div>
+                <div class="message-wrapper__img"><img src="../assets/Chat_duotone.svg"/></div>
+            </div>
+            <div class="message-line"></div>
+    
+        </a>
+    </header>
+    <!-- /HEADER -->
+    
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+    
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
+
+    <div class="main">
+        
+    </div>
+
 </div>
 
 <!-- SCRIPTS -->

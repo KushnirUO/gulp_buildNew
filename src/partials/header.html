@@ -1,6 +1,99 @@
 <!-- HEADER -->
-<header>
+<header class="header">
+    <div class="header-menu">
+        <div class="header-menu__logo"><img src="../assets/Logo-index.svg"/></div>
+        <div class="header-menu__wrapper">
+            <a href="#">what we do</a>
+            <a href="#">solutions</a>
+            <a href="#">case studies</a>
+            <a href="#">insights center</a>
+            <a href="#">careers</a>
+            <div class="header-burger" onclick="openNav()"><img src="../assets/Menu.svg"/></div>
+        </div>
+    </div>
+    <div id="myNav" class="header-navbar">
+        <div class="header-nav-logo"><img src="../assets/Logo.png"/></div>
+        <div class="header-navbar__content">
+            <div class="header-nav-menu">
+                <div class="header-nav-menu__wrapper">
+                    <div class="nav-menu-title">What we do</div>
+                    <div class="nav-menu-subtitle">
+                        <a href="#">Customer experience</a>
+                        <a href="#">Strategy</a>
+                        <a href="#">Technology</a>
+                    </div>
+                </div>
+                <div class="header-nav-menu__wrapper">
+                    <div class="nav-menu-title">Case Studies</div>
+                    <div class="nav-menu-subtitle">
+                        <a href="#">Shufersal</a>
+                        <a href="#">Bank Hapoalim</a>
+                        <a href="#">Yellow</a>
+                        <a href="#">Corona</a>
+                        <a href="#">Catch App</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header-nav-submenu">
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+                <a href="#">About</a>
+                <div class="social-icons">
+                    <a class="social-icons__inst" href="#"><img src="../assets/Instagram.png" alt="#"/></a>
+                    <a class="social-icons__fb" href="#"><img src="../assets/Facebook.png" alt="#"/></a>
+                    <a class="social-icons__in" href="#"><img src="../assets/Linkedin.png" alt="#"/></a>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    <div class="header__info">
+        <div class="info-line1">
+            <span>We</span>
+            <img src="../assets/index-1.svg"/>
+            <p>plan</p>
+        </div>
+        <div class="info-line2">
+            <p>create</p>
+            <img src="../assets/index-2.svg"/>
+            <p>design</p>
+        </div>
+        <div class="info-line3">
+            <p>build</p>
+            <img src="../assets/index-3.svg"/>
+            <span>your</span><span>digital</span><span>future</span>
+        </div>
 
+    </div>
+    <div class="header__right-nav-bar">
+        <div class="social-icons">
+            <a class="social-icons__inst" href="#"><img src="../assets/Instagram.png" alt="#"/></a>
+            <a class="social-icons__fb" href="#"><img src="../assets/Facebook.png" alt="#"/></a>
+            <a class="social-icons__in" href="#"><img src="../assets/Linkedin.png" alt="#"/></a>
+        </div>
+    </div>
+    <a href="#" class="header__message">
+        <div class="message-wrapper">
+            <div>
+                <div class="message-wrapper__title">Contact Us</div>
+                <div class="message-wrapper__subtitle">Let’s talk dgtl</div>
+            </div>
+            <div class="message-wrapper__img"><img src="../assets/Chat_duotone.svg"/></div>
+        </div>
+        <div class="message-line"></div>
+
+    </a>
 </header>
 <!-- /HEADER -->
 
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
