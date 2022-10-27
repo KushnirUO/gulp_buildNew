@@ -8,30 +8,32 @@ $(window).load(function () {
 $(window).scroll(function () {
     var $height = $(window).scrollTop();
     console.log($height);
-    if ($height > 900 && $height < 1200) {
-        $('.mobile-dev__img1').css('top', $height - 900);
-        $('.mobile-dev__img1').css('display','flex');
-        $('.mobile-dev__img2').css('display','none');
+    // $('.mobile-dev__img1 img').css('top', $height+200);
+    // $('.mobile-dev__img2 img').css('top', $height+200);
+    // $('.mobile-dev__img3 img').css('top', $height+200);
+    // $('.mobile-dev__img4 img').css('top', $height+200);
 
+    if ($height > 1000 && $height < 1300) {
+        $('.mobile-dev__img1').fadeIn(0);
+        $('.mobile-dev__img2').fadeOut(0);
+        $('.mobile-dev__img1').css('top', 200);
     }
-    if ($height > 1200 && $height < 1500) {
-        $('.mobile-dev__img1').css('display','none');
-        $('.mobile-dev__img2').css('display','flex');
-        $('.mobile-dev__img2').css('top', $height - 900);
-        $('.mobile-dev__img3').css('display','none');
-
+    if ($height > 1300 && $height < 1900) {
+        $('.mobile-dev__img2').css('top', 200);
+        $('.mobile-dev__img1').fadeOut(0);
+        $('.mobile-dev__img2').fadeIn(0);
+        $('.mobile-dev__img3').fadeOut(0);
     }
-    if ($height > 1500 && $height < 1800) {
-        $('.mobile-dev__img2').css('display','none');
-        $('.mobile-dev__img3').css('display','flex');
-        $('.mobile-dev__img3').css('top', $height - 900);
-        $('.mobile-dev__img4').css('display','none');
-
+    if ($height > 1900 && $height < 2400) {
+        $('.mobile-dev__img3').css('top', 200);
+        $('.mobile-dev__img2').fadeOut(0);
+        $('.mobile-dev__img3').fadeIn(0);
+        $('.mobile-dev__img4').fadeOut(0);
     }
-    if ($height > 1800 && $height < 2100) {
-        $('.mobile-dev__img3').css('display','none');
-        $('.mobile-dev__img4').css('display','flex');
-        $('.mobile-dev__img4').css('top', $height - 900);
+    if ($height > 2400 && $height < 3000) {
+        $('.mobile-dev__img4').css('top', 200);
+        $('.mobile-dev__img3').fadeOut(0);
+        $('.mobile-dev__img4').fadeIn(0);
     }
 
     }
