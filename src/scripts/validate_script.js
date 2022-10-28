@@ -69,7 +69,6 @@ function validate(form, options){
                 }
             });
         });
-
         if($('[type="email"]',$form).length) {
             $('[type="email"]',$form).rules( "add",
             {

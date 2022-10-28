@@ -1,16 +1,12 @@
 $sizes: ("xs":666px, "sm":720px, "md":768px, "lg":992px, "xl":1200px);
 
-html{
-	font-size: 10px;
-}
-
 .footer {
 	display: block;
 	font-size: 1.2rem;
 	padding: 10rem 11.8rem 8.5rem 12rem;
-	background: #000000;
+	background: var(--font-black);
 	line-height: 5.4rem;
-	color: #FFFFFF;
+	color: var(--natural-bg-color);
 }
 .footer-subs h2{
 	font-weight: 700;
@@ -26,7 +22,7 @@ html{
 }
 .footer-subs-wrapper__inner{
 	width: 100%;
-	max-width: 998px;
+	max-width: 99.8rem;
 }
 .footer-subs-wrapper-email{
 	display: flex;
@@ -42,12 +38,14 @@ html{
 	font-weight: 300;
 	font-size: 2.6rem;
 	line-height: 8.2rem;
-	color: #717783;
-	background: black;
+	color: var(--font-gray);
+	background: var(--font-black);
 	border: none;
+	padding: 0;
+	max-width: 84.7rem;
 }
 .footer-subs-wrapper input::placeholder {
-	color: #717783;
+	color: var(--font-gray);
 }
 .footer-subs-wrapper button{
 	font-weight: 400;
@@ -58,15 +56,15 @@ html{
 	text-align: center;
 	border-radius: 0.4rem;
 	padding: 0 1.6rem;
-	border-color: #0045FF;
-	background: black;
+	border-color: var(--message-blue);
+	background: var(--font-black);
 	width: 14.3rem;
 	height: 5.4rem;
-	color: #FFFFFF;
+	color: var(--natural-bg-color);
 	justify-content: center;
 }
 .footer-subs__line{
-	border: 0.1rem dashed #717783;
+	border: 0.1rem dashed var(--font-gray);
 }
 .footer-menu{
 	display: flex;
@@ -81,7 +79,7 @@ html{
 	font-weight: 300;
 	font-size: 1.4rem;
 	line-height: 2.1rem;
-	color: #FFFFFF;
+	color: var(--natural-bg-color);
 	margin: 0;
 }
 .footer-menu__wrapper{
@@ -89,7 +87,12 @@ html{
 	align-items: flex-start;
 	flex-wrap: wrap;
 	flex-direction: row;
-	gap: 11.5rem;
+	gap: 11.533rem;
+}
+.footer-menu-items{
+	display: flex;
+	flex-direction: column;
+	gap: 3.2rem;
 }
 .footer-menu-items__title h4{
 	font-weight: 300;
@@ -97,24 +100,26 @@ html{
 	line-height: 1.6rem;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #717783;
+	color: var(--font-gray);
+	margin: 0;
 }
 .footer-menu-list{
 	display: flex;
 	flex-direction: column;
+	gap: 1.6rem;
 }
 .footer-menu-items__text{
 	display: flex;
 	flex-direction: column;
 	gap: 1.6rem;
-	color: #CCCFD5;
+	color: var(--font-light-gray);
 }
 .footer-menu-items__text a{
 	font-weight: 300;
 	font-style: normal;
 	font-size: 1.6rem;
 	line-height: 3.2rem;
-	color: #CCCFD5;
+	color: var(--font-light-gray);
 	text-decoration: none;
 }
 .footer-menu__logo{
@@ -150,7 +155,7 @@ html{
 	font-weight: 400;
 	font-size: 1.4rem;
 	line-height: 2.1rem;
-	color: #717783;
+	color: var(--font-gray);
 }
 .footer-social__digital{
 	display: flex;
@@ -222,6 +227,9 @@ html{
 	    align-items: center;
 		justify-content: space-between;
 	}
+	.footer-menu-items, .footer-menu-list{
+		gap: 0;
+	}
 }
 @media screen and (max-width: 666px) {
 	.footer{
@@ -245,4 +253,5 @@ html{
 		font-size: 2.7rem;
 		line-height: 2.7rem;
 	}
+
 }
