@@ -49,14 +49,10 @@ html {
 }
 @media screen and (max-width: 666px) {
   html {
-    font-size: 3px;
+    font-size: 10px;
   }
 }
-@media screen and (max-width: 320px) {
-  html {
-    font-size: 2px;
-  }
-}
+
 
 
 html *,

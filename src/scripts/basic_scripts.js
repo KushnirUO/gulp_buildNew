@@ -124,6 +124,11 @@ jQuery(() => {
         $(".accordion__item").removeClass("active__item");
         $(this).next().slideDown(299).parent().addClass("active__item");
     });
+    $("#accordion1 .accordion__title1").on("click", function () {
+        $("#accordion1 .accordion__content1").not($(this).next()).slideUp(299);
+        $(".accordion__item1").removeClass("active__item");
+        $(this).next().slideDown(299).parent().addClass("active__item");
+    });
 
 });
 /**

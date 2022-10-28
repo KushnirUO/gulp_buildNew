@@ -1,5 +1,5 @@
 .quote{
-  background: #002EAA;
+  background: var(--quote-bg-color);
 }
 .quote__wrapper {
   padding: 11.7rem 12rem 16rem;
@@ -22,11 +22,11 @@
 .quote-text {
   font-size: 4.1rem;
   line-height: 7.2rem;
-  color: #FFFFFF;
+  color: var(--natural-bg-color);
 }
 
 .quote-text span {
-  color: #F3B4BD;
+  color: var(--font-pink);
 }
 @media screen and (max-width: 1024px) {
   .quote-text {
@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 666px) {
   .quote__wrapper {
     padding: 6rem 2rem 4.5rem 2rem;
   }

@@ -13,7 +13,7 @@
   font-size: 9.2rem;
   line-height: 9.2rem;
   text-align: center;
-  color: #000F2E;
+  color: var(--font-dark-blue);
   margin-bottom: 6.6rem;
 }
 .project-content{
@@ -30,18 +30,18 @@
   font-size: 5.6rem;
   line-height: 5.6rem;
   text-align: center;
-  color: #002EAA;
+  color: var(--quote-bg-color);
 }
 .project-content__desc{
   font-weight: 300;
   font-size: 2.4rem;
   line-height: 3.2rem;
   text-align: center;
-  color: #717783;
+  color: var(--font-gray);
 }
 .featured-line{
   width: 100%;
-  border: 0.1rem dashed #717783;
+  border: 0.1rem dashed var(--font-gray);
   max-width: 120rem;
 }
 @media screen and (max-width: 768px) {
@@ -66,5 +66,21 @@
 @media screen and (max-width: 666px) {
   .featured__wrapper {
     padding: 6rem 2rem 4.5rem 2rem;
+  }
+  .project-title{
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+  }
+  .project-content__name {
+    font-size: 2.6rem;
+    line-height: 150%;
+  }
+  .project-content__desc {
+    font-size: 1.5rem;
+    line-height: 150%;
+  }
+  .project-content {
+    margin: 1.4rem 0;
+    gap: 0.4rem;
   }
 }

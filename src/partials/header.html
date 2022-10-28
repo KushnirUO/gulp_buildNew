@@ -1,45 +1,53 @@
 <!-- HEADER -->
 <header class="header">
     <div class="header-menu">
-        <div class="header-menu__logo"><img src="../assets/Logo-index.svg"/></div>
+        <a href="#" class="header-menu__logo"><img src="../assets/Logo-index.svg"/></a>
         <div class="header-menu__wrapper">
-            <a href="#">what we do</a>
-            <a href="#">solutions</a>
-            <a href="#">case studies</a>
-            <a href="#">insights center</a>
-            <a href="#">careers</a>
-            <div class="header-burger" onclick="openNav()"><img src="../assets/Menu.svg"/></div>
+            <ul>
+                <li><a href="#">what we do</a></li>
+                <li><a href="#">solutions</a></li>
+                <li><a href="#">case studies</a></li>
+                <li><a href="#">insights center</a></li>
+                <li><a href="#">careers</a></li>
+            </ul>
+            <button class="header-burger"><img src="../assets/Menu.svg"/></button>
         </div>
     </div>
     <div id="myNav" class="header-navbar">
-        <div class="header-nav-logo"><img src="../assets/Logo.png"/></div>
+        <a href="#" class="header-nav-logo"><img src="../assets/Logo.png"/></a>
         <div class="header-navbar__content">
-            <div class="header-nav-menu">
-                <div class="header-nav-menu__wrapper">
-                    <div class="nav-menu-title">What we do</div>
-                    <div class="nav-menu-subtitle">
-                        <a href="#">Customer experience</a>
-                        <a href="#">Strategy</a>
-                        <a href="#">Technology</a>
+            <div class="header-nav-menu accordion1" id="accordion1">
+                <div class="header-nav-menu__wrapper accordion__item1">
+                    <div class="nav-menu-title accordion__title1">What we do</div>
+                    <div class="nav-menu-subtitle accordion__content1">
+                        <ul>
+                            <li><a href="#">Customer experience</a></li>
+                            <li><a href="#">Strategy</a></li>
+                            <li><a href="#">Technology</a></li>
+                        </ul>
                     </div>
                 </div>
-                <div class="header-nav-menu__wrapper">
-                    <div class="nav-menu-title">Case Studies</div>
-                    <div class="nav-menu-subtitle">
-                        <a href="#">Shufersal</a>
-                        <a href="#">Bank Hapoalim</a>
-                        <a href="#">Yellow</a>
-                        <a href="#">Corona</a>
-                        <a href="#">Catch App</a>
+                <div class="header-nav-menu__wrapper accordion__item1">
+                    <div class="nav-menu-title accordion__title1">Case Studies</div>
+                    <div class="nav-menu-subtitle accordion__content1">
+                        <ul>
+                            <li><a href="#">Shufersal</a></li>
+                            <li><a href="#">Bank Hapoalim</a></li>
+                            <li><a href="#">Yellow</a></li>
+                            <li><a href="#">Corona</a></li>
+                            <li><a href="#">Catch App</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="header-nav-submenu">
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Clients</a>
-                <a href="#">Contact</a>
-                <a href="#">About</a>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
                 <div class="social-icons">
                     <a class="social-icons__inst" href="#"><img src="../assets/Instagram.png" alt="#"/></a>
                     <a class="social-icons__fb" href="#"><img src="../assets/Facebook.png" alt="#"/></a>
@@ -83,17 +91,5 @@
             <div class="message-wrapper__img"><img src="../assets/Chat_duotone.svg"/></div>
         </div>
         <div class="message-line"></div>
-
     </a>
 </header>
-<!-- /HEADER -->
-
-<script>
-    function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-    }
-
-    function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-    }
-</script>

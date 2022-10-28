@@ -1,4 +1,20 @@
-/*fonts*/
+:root {
+    --section-bg-color: linear-gradient(165.52deg, #000F2E 29.9%, #000000 130.06%);
+    --quote-bg-color: #002EAA;
+    --natural-bg-color:#FFFFFF;
+    --font-gray:#717783;
+    --font-dark-blue: #000F2E;
+    --font-pink:#F3B4BD;
+    --font-black:#000000;
+    --font-light-gray:#CCCFD5;
+    --button-orange:#E48038;
+    --message-blue:#0045FF;
+    --join-us-bg:#F9FAFE;
+    --dry-green:#79D6B0;
+    --light-blue:#4ea7f9;
+    --we-do-bg-color:linear-gradient(165.52deg, #000F2E 29.9%, #000000 130.06%);
+
+}
 @mixin font-face($style-name, $file:$style-name, $weight:normal, $style:normal) {
     $filepath: "/fonts/" + $file;
     @font-face {
