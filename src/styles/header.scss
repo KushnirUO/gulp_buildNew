@@ -1,3 +1,6 @@
+.header{
+  display: flex;
+}
 .header-navbar {
   height: 100%;
   width: 0;
@@ -43,6 +46,9 @@
   left: 11.8rem;
 }
 .header-menu {
+  position: absolute;
+  background: inherit;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 4.4rem 4.8rem 0;
@@ -134,7 +140,7 @@ ul {
 .header__info{
   display: flex;
   flex-direction: column;
-  margin: 12.4rem 12rem 18.2rem;
+  margin: 20.8rem 12rem 18.2rem;
   text-transform: uppercase;
   align-items: center;
   gap: 4rem;
@@ -167,6 +173,7 @@ ul {
   }
 }
 .header__right-nav-bar{
+  z-index: 1;
   position: fixed;
   width: 8.6rem;
   top: 42%;
@@ -183,7 +190,7 @@ ul {
       opacity: 0.9;
       border: 0.1rem solid #F2F3F5;
       box-shadow: 0.2rem 2.4rem 3.4rem -1rem rgba(0, 0, 0, 0.04);
-      backdrop-filter: blur(12px);
+      backdrop-filter: blur(1.2rem);
       border-radius: 2.4rem;
     }
   }
@@ -366,12 +373,12 @@ ul {
 
 @media screen and (max-height: 450px) {
   .header-navbar a {
-    font-size: 20px
+    font-size: 2rem
   }
 
   .header-navbar .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
+    font-size: 4rem;
+    top: 1.5rem;
+    right: 3.5rem;
   }
 }

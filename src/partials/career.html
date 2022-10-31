@@ -9,8 +9,14 @@
             <div class="career-skills__item"><img src="../assets/career-4.png"/><p>Work/Life balance</p></div>
             <div class="career-skills__item"><img src="../assets/career-5.png"/><p>Long-term commitment</p></div>
         </div>
+    </div>
+    <div class="career__wrapper2">
         <div class="career-join-us">
+            <div class="career-join-us__img">
+                <img src="../assets/join-us-bg.svg"/>
+            </div>
             <div class="career-join-us__wrapper">
+
                 <div class="join-text">
                     <h4>What have you got to offer?</h4>
                     <p>Let's talk about it over coffee</p>
@@ -26,11 +32,11 @@
                 <p>We love what we do, and we love talking about it. So, why not come in for a chat. We'll be happy to throw around thoughts and ideas and share what we know about the latest digital trends. </p>
                 <div class="career-coffee-text">We're certain you'll leave with more knowledge and feeling inspired.</div>
             </div>
-            <form class="career-form__inputs">
-                <input type="name" placeholder="Name" required/>
+            <form class="career-form__inputs" id="subscribe-form">
+                <input type="text" name="name" placeholder="Name" required/>
                 <div class="form-dual-inputs">
-                    <input type="email" placeholder="Email" required/>
-                    <input class="tel-mask" type="phone" placeholder="Phone" required/>
+                    <div style="width: 100%"><input type="email" name="email" placeholder="Email" required/></div>
+                    <div style="width: 100%"><input class="tel-mask" type="phone" name="phone" placeholder="Phone" required/></div>
                 </div>
                 <input type="message" placeholder="Message"/>
                 <button type="submit">Submit</button>
