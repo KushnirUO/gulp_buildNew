@@ -17,6 +17,7 @@
     letter-spacing: 0.02em;
     color: #000000;
     margin: 0;
+    min-width: fit-content;
   }
   .info-text{
     font-weight: 300;
@@ -34,5 +35,19 @@
     display: flex;
     gap: 6rem;
     align-items: center;
+  }
+}
+@media screen and (max-width: 666px){
+  .strategy-header {
+    padding: 10rem 2rem 4.5rem 2rem;
+  }
+  .strategy-header__wrapper .info-text {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  .strategy-header__wrapper {max-width: none;width: 100%;gap: 2rem;
+    .info-line1,.info-line2{gap: 1rem;}}
+  .strategy-header__wrapper p{
+    font-size: 3rem;
   }
 }

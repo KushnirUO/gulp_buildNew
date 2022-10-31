@@ -132,7 +132,7 @@ gulp.task('serve', () => {
 });
 
 gulp.task('watch', function(){
-    gulp.watch('src/styles/**/*.scss', function(event, cb) {
+    gulp.watch('src/styles/**/*.scss',{ usePolling: true }, function(event, cb) {
         gulp.start('styles');
     });
     gulp.watch('src/scripts/**/*.js', function(event, cb) {
