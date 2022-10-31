@@ -14,7 +14,11 @@ $sizes: ("xs":666px, "sm":720px, "md":768px, "lg":992px, "xl":1200px);
     --join-us-bg:#F9FAFE;
     --dry-green:#79D6B0;
     --light-blue:#4ea7f9;
+    --purple-color:#5D51F2;
+
     --we-do-bg-color:linear-gradient(165.52deg, #000F2E 29.9%, #000000 130.06%);
+    --purple-gradient:linear-gradient(90deg, rgba(123, 181, 231, 1) 0%, rgba(192, 173, 247, 1) 35%, rgba(179, 180, 249, 1) 100%);
+
 
 }
 @mixin font-face($style-name, $file:$style-name, $weight:normal, $style:normal) {

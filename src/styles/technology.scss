@@ -1,5 +1,5 @@
 .header-tech {
-  background: #5D51F2;
+  background: var(--purple-color);
   padding: 15rem 12.2rem 8.2rem;
   display: flex;
   justify-content: center;
@@ -21,13 +21,13 @@
     line-height: 110%;
     letter-spacing: 0.02em;
     margin: 0;
-    color: #FFFFFF;
+    color: var(--natural-bg-color);
   }
   .info-text{
     font-weight: 300;
     font-size: 2.2rem;
     line-height: 3.8rem;
-    color: #FFFFFF;
+    color: var(--natural-bg-color);
   }
   img{    overflow: auto;}
   .info-line1{
@@ -44,7 +44,7 @@
 
 .mobile-dev {
   height: 275rem;
-  background: #FFFFFF;
+  background: var(--natural-bg-color);
   margin: 12rem 11.8rem 0;
 }
 
@@ -67,12 +67,12 @@
     font-weight: 700;
     font-size: 5.4rem;
     line-height: 5.4rem;
-    color: #000F2E;
+    color: var(--font-dark-blue);
     margin: 0;
   }
 
   mark {
-    background: linear-gradient(90deg, rgba(123, 181, 231, 1) 0%, rgba(192, 173, 247, 1) 35%, rgba(179, 180, 249, 1) 100%);
+    background: var(--purple-gradient);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -81,7 +81,7 @@
     font-weight: 300;
     font-size: 2rem;
     line-height: 3.2rem;
-    color: #717783;
+    color: var(--font-gray);
     max-width: 46.9rem;
     margin: 0;
   }
@@ -93,7 +93,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #0045FF;
+    color: var(--message-blue);
     border: none;
     background: none;
     gap: 0.8rem;
@@ -140,7 +140,7 @@
     font-weight: 700;
     font-size: 5.4rem;
     line-height: 5.4rem;
-    color: #000F2E;
+    color: var(--font-dark-blue);
     margin: 0;
   }
 
@@ -148,7 +148,7 @@
     font-weight: 300;
     font-size: 2rem;
     line-height: 3.2rem;
-    color: #717783;
+    color: var(--font-gray);
     margin: 0;
   }
 
@@ -174,7 +174,7 @@
     font-weight: 700;
     font-size: 5.4rem;
     line-height: 5.4rem;
-    color: #FFFFFF;
+    color: var(--natural-bg-color);
     margin: 0 0 3.2rem 0;
   }
 
@@ -182,14 +182,14 @@
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 2.8rem;
-    color: #CCCFD5;
+    color: var(--font-light-gray);
     margin: 0;
   }
 }
 
 .web-dev {
 
-  background: #002EAA;
+  background: var(--quote-bg-color);
 
   &__wrapper {
     padding: 12rem;
@@ -205,7 +205,7 @@
       font-weight: 600;
       font-size: 3.4rem;
       line-height: 3.4rem;
-      color: #FFFFFF;
+      color: var(--natural-bg-color);
       margin: 1.6rem 0 3.2rem;
     }
 
@@ -213,7 +213,7 @@
       font-weight: 300;
       font-size: 1.8rem;
       line-height: 2.8rem;
-      color: #CCCFD5;
+      color: var(--font-light-gray);
       margin: 0;
     }
   }
@@ -230,7 +230,7 @@
       font-size: 7.2rem;
       line-height: 7.2rem;
       text-align: center;
-      color: #FFFFFF;
+      color: var(--natural-bg-color);
       margin: 0;
     }
 

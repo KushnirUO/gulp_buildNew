@@ -120,14 +120,22 @@ function headeButer(menuMobile,toggleMenu){
 jQuery(() => {
 
     $("#accordion .accordion__title").on("click", function () {
-        $("#accordion .accordion__content").not($(this).next()).slideUp(299);
-        $(".accordion__item").removeClass("active__item");
-        $(this).next().slideDown(299).parent().addClass("active__item");
+        // $("#accordion .accordion__content").not($(this).next()).slideUp(299);
+        // $(".accordion__item").removeClass("active__item");
+        if (!$(this).hasClass("active__item")) {
+            $("#accordion .accordion__content").slideUp(400);
+            $(".accordion__item").removeClass("active__item");
+        }
+        $(this).toggleClass("active__item");
+        $(this).next().slideToggle();
     });
     $("#accordion1 .accordion__title1").on("click", function () {
-        $("#accordion1 .accordion__content1").not($(this).next()).slideUp(299);
-        $(".accordion__item1").removeClass("active__item");
-        $(this).next().slideDown(299).parent().addClass("active__item");
+        if (!$(this).hasClass("active__item")) {
+            $("#accordion1 .accordion__content1").slideUp(400);
+            $(".accordion__item1").removeClass("active__item");
+        }
+        $(this).toggleClass("active__item");
+        $(this).next().slideToggle();
     });
 
 });
