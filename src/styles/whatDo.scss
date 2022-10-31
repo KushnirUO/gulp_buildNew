@@ -76,17 +76,17 @@
   color: var(--natural-bg-color);
 }
 
-.list-item-more button {
+.list-item-more a {
   display: flex;
   align-items: center;
   text-align: center;
   background: inherit;
-  width: 11.3rem;
   gap: 0.8rem;
   height: 4rem;
   padding: 0;
   border: none;
-
+  text-decoration: none;
+  color: var(--natural-bg-color);
 }
 
 .list-item-more p {

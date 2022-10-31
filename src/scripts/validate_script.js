@@ -1,8 +1,4 @@
-/**
-* Main validation form
-* @param {form} jquery obj - Form
-* @param {options} obj - object width params
-*/
+
 function validate(form, options){
     var setings = {
         errorFunction:null,

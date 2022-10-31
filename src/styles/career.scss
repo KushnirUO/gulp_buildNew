@@ -3,12 +3,20 @@
 }
 
 .career__wrapper {
-  padding: 16rem 12rem 14.3rem;
+  padding: 16rem 12rem 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+}
+.career__wrapper2 {
+  position: relative;
+  background: var(--natural-bg-color);
+  padding: 23rem 12rem 14.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .career-title {
@@ -63,7 +71,6 @@
 .career-skills__item img {
   width: 8.2rem;
   height: 8.2rem;
-
 }
 
 .career-form{
@@ -105,7 +112,6 @@
   flex-direction: column;
   gap: 2.4rem;
   padding: 0 10.2rem;
-  align-items: flex-end;
 }
 .form-dual-inputs{
   display: flex;
@@ -116,9 +122,8 @@
   width: 100%;
   height: 7.6rem;
   font-weight: 300;
-  background: var(--join-us-bg);
   border: none;
-  border-bottom: 1px solid #CCCFD5;
+  border-bottom: 0.1rem solid var(--font-light-gray);
   font-size: 2rem;
   line-height: 7.2rem;
   color: var(--font-gray);
@@ -145,15 +150,26 @@
 }
 
 .career-join-us{
-  background: var(--join-us-bg);
+  display: flex;
+  justify-content: center;
+  &__img{
+    position: absolute;
+    top: -9rem;
+    width: 99.6rem;
+    height: 18rem;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+  }
 }
 .career-join-us__wrapper{
+  position: absolute;
+  top: -9rem;
   width: 99.6rem;
   height: 18rem;
   background: var(--natural-bg-color);
   box-shadow: 0 1.6rem 4rem rgba(112, 144, 176, 0.25);
   border-radius: 0.3rem;
-  margin: 11rem 0 14rem;
   display: flex;
   justify-content: space-between;
   padding: 4.8rem;
@@ -161,6 +177,7 @@
 .join-button{
   display: flex;
   align-items: center;
+  z-index: 2;
 }
 .join-button button{
   width: 14.8rem;
@@ -207,15 +224,14 @@
   .career-skills {
     gap: 6rem;
   }
-  .career-join-us__wrapper{
-    width: 100%;
-    height: 100%;
-  }
 }
 @media screen and (max-width: 666px) {
-  .career__wrapper {
-    padding: 6rem 2rem 4.5rem 2rem;
+  .career__wrapper{
+    padding: 6rem 2rem 13rem 2rem;
   }
+.career__wrapper2 {
+  padding: 13rem 2rem 5rem 2rem;
+}
 
   .career-title {
     font-size: 2.4rem;
@@ -229,14 +245,20 @@
   }
 }
 @media screen and (max-width: 666px) {
+  .career-join-us__img {
+    width: 70%;
+  }
+  .form-dual-inputs {
+    flex-direction: column;
+  }
  .join-text{
    text-align: center;
    h4{
-     font-size: 2.7rem;
-     line-height: 2.7rem;
+     font-size: 2rem;
+     line-height: 2rem;
    }
    p{
-     font-size: 1.8rem;
+     font-size: 1.2rem;
      line-height: 150%;
    }
  }
@@ -258,7 +280,7 @@
   .career-join-us__wrapper{
     flex-direction: column;
     align-items: center;
-    margin: 5.5rem 0 7rem;
+    width: 70%;
     padding: 2.4rem;
     gap: 1rem;
   }
