@@ -288,3 +288,79 @@
     }
   }
 }
+.cx-user-design{
+  &__wrapper{
+    max-width: 58.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  &-title{
+    h2{
+      font-weight: 700;
+      font-size: 7.2rem;
+      line-height: 7.2rem;
+      color: var(--font-dark-blue);
+      margin: 0;
+    }
+  }
+
+  &-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2.4rem;
+
+    h4{
+      font-weight: 300;
+      font-size: 2.2rem;
+      line-height: 2.2rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--quote-bg-color);
+      margin: 0;
+    }
+    p{
+      font-weight: 300;
+      font-size: 2rem;
+      line-height: 3.2rem;
+      color: #717783;
+      margin: 0;
+    }
+  }
+
+}
+.cx-digital{
+  background: var(--quote-bg-color);
+  &__wrapper{
+
+  }
+  &-title{
+    display: flex;
+    font-weight: 700;
+    font-size: 24.1rem;
+    line-height: 24.1rem;
+    color: #FFFFFF;
+    overflow: hidden;
+  }
+  &-sub{
+    font-weight: 300;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--font-pink);
+  }
+  &-text{
+    display: flex;
+    p{
+      max-width: 58.4rem;
+      font-weight: 300;
+      font-size: 2.2rem;
+      line-height: 3.8rem;
+      color: #CCCFD5;
+      margin: 0;
+    }
+  }
+}
