@@ -5,6 +5,7 @@ $sizes: ("xs":666px, "sm":720px, "md":768px, "lg":992px, "xl":1200px);
     --quote-bg-color: #002EAA;
     --natural-bg-color:#FFFFFF;
     --font-gray:#717783;
+    --light-gray:rgba(255, 255, 255, 0.6);
     --font-dark-blue: #000F2E;
     --font-pink:#F3B4BD;
     --font-black:#000000;
@@ -15,11 +16,15 @@ $sizes: ("xs":666px, "sm":720px, "md":768px, "lg":992px, "xl":1200px);
     --dry-green:#79D6B0;
     --light-blue:#4ea7f9;
     --purple-color:#5D51F2;
-
+    --light-white:#F2F3F5;
+    --light-white1:#fefcfe;
+    --light-white2:aliceblue;
     --we-do-bg-color:linear-gradient(165.52deg, #000F2E 29.9%, #000000 130.06%);
     --purple-gradient:linear-gradient(90deg, rgba(123, 181, 231, 1) 0%, rgba(192, 173, 247, 1) 35%, rgba(179, 180, 249, 1) 100%);
-
-
+    --pink-gradient:linear-gradient(90deg, rgba(217, 169, 176, 1) 0%, rgba(159, 183, 239, 1) 35%, rgba(148, 211, 244, 1) 100%);
+    --dark-purple:linear-gradient(61deg, rgba(50,49,120,1) 0%, rgba(156,104,146,1) 84%, rgba(148,211,244,1) 100%);
+    --light-pink-gradient:linear-gradient(61deg, rgba(224,130,151,1) 0%, rgba(239,180,179,1) 46%, rgba(228,147,148,1) 100%);
+    --orange-gradient:linear-gradient(61deg, rgba(226,121,52,1) 0%, rgba(237,192,144,1) 25%, rgba(227,132,34,1) 72%);
 }
 @mixin font-face($style-name, $file:$style-name, $weight:normal, $style:normal) {
     $filepath: "/fonts/" + $file;

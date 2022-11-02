@@ -129,6 +129,7 @@ $slick-opacity-on-hover: 1 !default;
     }
   .slick-disabled{
     opacity: 0.5;
+    cursor: inherit;
   }
 }
 
@@ -162,5 +163,8 @@ $slick-opacity-on-hover: 1 !default;
     text-align: center;
     gap: 2rem;
     align-items: center;
+  }
+  .insights-slider-item__img {
+    width: 100%;
   }
 }

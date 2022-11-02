@@ -26,7 +26,7 @@
 .footer-subs-wrapper-email{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	gap: 0.8rem;
 	padding: 3.2rem 0 5rem;
@@ -61,6 +61,7 @@
 	height: 5.4rem;
 	color: var(--natural-bg-color);
 	justify-content: center;
+	margin-top: 1.4rem;
 }
 .footer-subs__line{
 	border: 0.1rem dashed var(--font-gray);
@@ -194,7 +195,7 @@
 		height: 0.8rem;
 		width: 0.8rem;
 		display: block;
-		border: 0.2rem solid #fefcfe;
+		border: 0.2rem solid var(--light-white1);
 		border-right-width: 0;
 		border-top-width: 0;
 		transform: rotate(-45deg);
@@ -203,7 +204,7 @@
 		top: 1.8rem
 	}
 	.accordion .active__item .accordion__title:before {
-		border: 0.2rem solid #fefcfe;
+		border: 0.2rem solid var(--light-white1);
 		border-left-width: 0;
 		border-bottom-width: 0;
 		top: 1.8rem;
