@@ -74,15 +74,31 @@ $(document).ready(function(){
             },
         ]
     });
-    // $('.slide-prev').click(function(e){
-    //     //e.preventDefault();
-    //     $('.insights-slider__wrapper').slick('slickPrev');
-    // } );
-    //
-    // $('.slide-next').click(function(e){
-    //     //e.preventDefault();
-    //     $('.insights-slider__wrapper').slick('slickNext');
-    // } );
+    $('.careers-auto-slider__wrapper').slick({
+        infinite: true,
+        speed: 300,
+        slidesToShow: 4.2,
+        slidesToScroll: 1,
+        autoplay:true,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 1280,
+                settings: {
+                    slidesToShow: 3.2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+        ]
+    });
+
 
     $('.header-burger').click((function () {
         $('#myNav').css('width', '100%')

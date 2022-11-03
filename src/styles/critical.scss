@@ -25,6 +25,13 @@ $sizes: ("xs":666px, "sm":720px, "md":768px, "lg":992px, "xl":1200px);
     --dark-purple:linear-gradient(61deg, rgba(50,49,120,1) 0%, rgba(156,104,146,1) 84%, rgba(148,211,244,1) 100%);
     --light-pink-gradient:linear-gradient(61deg, rgba(224,130,151,1) 0%, rgba(239,180,179,1) 46%, rgba(228,147,148,1) 100%);
     --orange-gradient:linear-gradient(61deg, rgba(226,121,52,1) 0%, rgba(237,192,144,1) 25%, rgba(227,132,34,1) 72%);
+    --pink-orange: linear-gradient(61deg, rgba(222,80,112,1) 0%, rgba(228,131,72,1) 56%, rgba(227,127,52,1) 100%);
+    --pink-white: linear-gradient(61deg, rgba(224,101,176,1) 0%, rgba(234,173,179,1) 45%, rgba(243,214,178,1) 100%);
+    --purple-blue: linear-gradient(61deg, rgba(58,56,119,1) 0%, rgba(129,138,247,1) 78%, rgba(207,197,213,1) 100%);
+    --light-purple-gradient: linear-gradient(61deg, rgba(224,230,254,1) 0%, rgba(218,198,249,1) 36%, rgba(210,231,253,1) 100%);
+    --dark-blue-gradient: linear-gradient(61deg, rgba(167,209,247,1) 0%, rgba(81,147,230,1) 36%, rgba(26,32,227,1) 100%);
+    --light-pink: linear-gradient(61deg, rgba(249,234,184,1) 0%, rgba(234,182,152,1) 36%, rgba(157,75,99,1) 100%);
+
 }
 @mixin font-face($style-name, $file:$style-name, $weight:normal, $style:normal) {
     $filepath: "/fonts/" + $file;

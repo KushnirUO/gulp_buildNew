@@ -1,0 +1,197 @@
+.careers{
+  margin: 18rem 11.8rem 2.9rem;
+  &-header{
+    &__subtitle{
+      font-weight: 300;
+      font-size: 2.2rem;
+      line-height: 2.2rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--quote-bg-color);
+      margin-bottom: 1.6rem;
+    }
+    &__title{
+      p{
+        font-weight: 700;
+        font-size: 9.2rem;
+        line-height: 9.2rem;
+        color: var(--font-dark-blue);
+        margin: 0;
+        mark{
+          background: var(--purple-gradient);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+    &__text{
+      font-weight: 300;
+      font-size: 2rem;
+      line-height: 3.2rem;
+      color: var(--font-dark-blue);
+      margin-top: 4rem;
+    }
+  }
+  &-auto-slider{
+    margin: 11rem -9rem 13.8rem 0;
+    overflow: hidden;
+    .slick-list{
+      overflow: inherit;
+    }
+    .m2{padding-top:2.7rem;}
+    .m3{padding-top:7.7rem;}
+    .m4{padding-top:3.7rem;}
+  }
+  &-open-pos{
+    display: flex;
+    flex-direction: column;
+    &__item{
+      margin-bottom: 12rem;
+      display: flex;
+      justify-content: space-between;
+      max-width: 109.9rem;
+
+    }
+    .open-pos-title{
+      font-weight: 300;
+      font-size: 2.2rem;
+      line-height: 2.2rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--font-gray);
+    }
+    .open-pos-list{
+      max-width: 68.7rem;
+      width: 100%;
+    }
+    ul{
+      display: flex;
+      flex-direction: column;
+      gap: 3.8rem;
+    }
+    li{
+      display: flex;
+      justify-content: space-between;
+    }
+    .list-line{
+      border-bottom: 1px dashed #000F2E;
+    }
+    a{
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      font-weight: 400;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      text-align: center;
+      color: var(--message-blue);
+      text-decoration: none;
+      img{
+        width: 2.8rem;
+        height: 2.9rem;
+      }
+    }
+    &__title{
+      font-weight: 700;
+      font-size: 7.2rem;
+      line-height: 7.2rem;
+      color: var(--font-dark-blue);
+      margin-bottom: 9.4rem;
+    }
+    p{
+      font-weight: 600;
+      font-size: 2.8rem;
+      line-height: 2.8rem;
+      color: var(--font-dark-blue);
+      margin: 0;
+    }
+
+  }
+  &-opportunity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.8rem;
+    margin-top: 10.3rem;
+    &-title{
+      font-weight: 700;
+      font-size: 5.4rem;
+      line-height: 5.4rem;
+      color: var(--font-dark-blue);
+      margin: 0;
+      mark{
+        background: var(--pink-orange);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    &-text{
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: var(--font-gray);
+      max-width: 99.4rem;
+    }
+  }
+  &-people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.6rem;
+    margin-bottom: 14rem;
+    &-title{
+      font-weight: 700;
+      font-size: 5.4rem;
+      line-height: 5.4rem;
+      color: var(--font-dark-blue);
+      margin: 0;
+      mark{
+        background: var(--pink-white);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    &-text{
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: var(--font-gray);
+      max-width: 99.6rem;
+    }
+  }
+  &-commit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.6rem;
+    margin: 14rem 0;
+    &-title{
+      font-weight: 700;
+      font-size: 5.4rem;
+      line-height: 5.4rem;
+      color: var(--font-dark-blue);
+      margin: 0;
+      mark{
+        background: var(--purple-blue);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+    &-text{
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: var(--font-gray);
+      max-width: 79.2rem;
+    }
+  }
+  .line{
+    border: 0.01rem dashed var(--font-dark-blue);
+  }
+}
