@@ -42,7 +42,7 @@
 }
 .strategy-digital{
   &__wrapper{
-    margin: 15rem 12rem;
+    margin: 14rem 11.8rem 0;
   }
 &-heading {
   display: flex;
@@ -101,14 +101,10 @@
     gap: 5.6rem;
   }
 }
-  &__img img{
-    width: 120rem;
-    height:89.2rem;
-  }
 }
 .strategy-scoping{
   &__wrapper{
-    margin: 15rem 12rem;
+    margin: 3.5rem 12rem 11rem;
   }
   &-heading {
     display: flex;
@@ -160,17 +156,14 @@
       gap: 0.8rem;
     }
   }
-  &__img img{
-    width: 120rem;
-    height:67.7rem;
-  }
+
 }
 .strategy-product {
   background: var(--quote-bg-color);
 
   &__wrapper {
     overflow: hidden;
-    padding: 12rem 0 14.8rem 10.6rem;
+    padding: 12rem 0 13.9rem 12rem;
   }
 
   &-title {
@@ -207,7 +200,7 @@
 }
 .strategy-user-research{
   &__wrapper{
-    margin: 15rem 12rem;
+    margin: 18rem 12rem 14rem;
     display: flex;
     gap: 13.6rem;
   }
@@ -261,14 +254,11 @@
       gap: 0.8rem;
     }
   }
-  &__img img{
-    //width: 48.3rem;
-    //height:48.8rem;
-  }
+
 }
 .strategy-road {
   &__wrapper {
-    padding: 15rem 12rem;
+    padding: 14rem 12rem 19.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,5 +324,46 @@
     .info-line1,.info-line2{gap: 1rem;}}
   .strategy-header__wrapper p{
     font-size: 3rem;
+  }
+  .strategy-road,.strategy-digital, .strategy-scoping, .strategy-product,.strategy-user-research{
+   &-title{
+     font-size: 5.1rem;
+     line-height: 11.1rem;
+   }
+    &-heading{padding: 0;
+      &__subtitle {
+        font-size: 1.6rem;
+        margin: 2rem 0 2.6rem;
+      }}
+    .strategy-scoping__subtitle, .strategy-product-sub, .strategy-user-research__subtitle,.strategy-road-subtitle {
+      font-size: 1.6rem;
+      margin: 2rem 0 2.6rem;
+
+    }
+    &__wrapper {
+        padding: 0;
+        margin: 4rem 2rem 4.5rem 2rem;
+      flex-direction: column;
+      gap: 2rem;
+      h2 {
+        font-size: 3.4rem;
+        line-height: 3.4rem;
+      }
+      p {
+        font-size: 2rem;
+        line-height: 3.2rem;
+      }
+
+      a {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+      }
+    }
+  }
+  .strategy-product{
+    &__wrapper {
+      padding: 4rem 2rem 4.5rem 2rem;
+      margin: 0;
+    }
   }
 }
