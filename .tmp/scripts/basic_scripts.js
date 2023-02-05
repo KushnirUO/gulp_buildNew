@@ -112,14 +112,6 @@ function headeButer(menuMobile, toggleMenu) {
     }
 }
 
-jQuery(() => {
-
-    $("#accordion .accordion__title").on("click", function () {
-        $("#accordion .accordion__content").not($(this).next()).slideUp(299);
-        $(".accordion__item").removeClass("active__item");
-        $(this).next().slideDown(299).parent().addClass("active__item");
-    });
-});
 /**
 * Expresion for numbers with spaces
 * @param {x} number
